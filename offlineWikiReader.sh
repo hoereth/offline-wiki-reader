@@ -19,11 +19,11 @@ then
    echo "WIKI_DOWNLOADS environment var must be set to a folder containing files like those:"
    echo "[lang]wiki-latest-pages-articles-multistream-index.txt (decompressed)"
    echo "[lang]wiki-latest-pages-articles-multistream.xml.bz2 (compressed)"
-   echo "You can get those files from https://dumps.wikimedia.org"
+   echo "You can get such files from https://dumps.wikimedia.org"
    exit;
 fi
-read -p "Which Wiki? (de/en) [de]? " LANG
-LANG=${LANG:-de}
+read -p "Which Wiki? [en]? " LANG
+LANG=${LANG:-en}
 read -p "Page title (regular expression, :title$ for exact match)? " PATTERN
 echo "Search results: (Byte Offset : Page ID : Page Title)"
 grep "${PATTERN}" -i ${WIKI_DOWNLOADS}/${LANG}wiki-latest-pages-articles-multistream-index.txt
