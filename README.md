@@ -19,4 +19,4 @@ Download a Wikipedia multistream dump + its index file in any number of language
   * [lang]wiki-latest-pages-articles-multistream-index.txt (decompressed)
   * [lang]wiki-latest-pages-articles-multistream.xml.bz2 (compressed)
 
-You can store those files anywhere on your local system, you just need to set an environment variable WIKI_DOWNLOADS to the containing folder, before you run the **offlineWikiReader.sh** script.
+You can store those files anywhere on your local system, you just need to set an environment variable WIKI_DOWNLOADS to the containing folder, before you run the [offlineWikiReader.sh](offlineWikiReader.sh) script.
