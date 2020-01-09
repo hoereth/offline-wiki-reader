@@ -1,4 +1,4 @@
-# Offline Wiki Reader #
+# 📚 Offline Wiki Reader #
 
 A shell script for searching Wikipedia index files and extracting single page content straight from the related compressed Wikipedia XML dumps. The key feature is that it operates on the compressed content. Wikipedia offers "byte index" files along every XML dump to make this possible.
 
