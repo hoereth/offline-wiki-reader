@@ -14,7 +14,7 @@ Make sure you have all required commands installed before running the script:
   * xmllint
   * pandoc
 
-Download a Wikipedia multistream dump + its index file in any number of languages. One pair of files would need to look like this:
+[Download a Wikipedia multistream dump + its index file](https://dumps.wikimedia.org) in any number of languages. One pair of files would need to look like this:
 
   * [lang]wiki-latest-pages-articles-multistream-index.txt (decompressed)
   * [lang]wiki-latest-pages-articles-multistream.xml.bz2 (compressed)
