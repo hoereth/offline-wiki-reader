@@ -7,12 +7,12 @@ This is a very low level approach, but it definitely enables you to occasionally
 # Getting started #
 
 Make sure you have all required commands installed before running the script:
-  * dd
-  * bzip2recover
-  * bunzip2
-  * cat
-  * xmllint
-  * pandoc
+  * dd - for extracting a binary file segment
+  * bzip2recover - for recovering files
+  * bunzip2 - for decompressing
+  * cat - for concatenating files
+  * xmllint - for extracting xml content
+  * pandoc - for converting text files
 
 Download a Wikipedia multistream dump + its index file in any number of languages. One pair of files would need to look like this:
 
